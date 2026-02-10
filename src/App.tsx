@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useState } from 'react'
 import { fetchDolarRates } from './api'
 import type { DolarRate } from './types'
-import { formatAmount, formatApiDate, formatFetchTime } from './format'
+import { formatAmount, formatFetchTime } from './format'
 
 const POLL_INTERVAL_MS = 5 * 60_000
 
