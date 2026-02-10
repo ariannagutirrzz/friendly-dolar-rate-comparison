@@ -76,9 +76,9 @@ export function App() {
           <h1>Comparador de Dólar en Venezuela</h1>
 
           <div className="meta-row">
-            <span className="pill pill--primary">Datos en vivo</span>
+            <span className="pill pill--soft">Datos en vivo</span>
             <span className="pill pill--soft">Actualiza cada 5 minutos</span>
-            <span className="pill pill--outline">Fuente: dolarapi.com</span>
+            <span className="pill pill--soft">Fuente: dolarapi.com</span>
           </div>
 
           {fetchTime && (
